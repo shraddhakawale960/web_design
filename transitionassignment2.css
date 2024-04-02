@@ -1,0 +1,99 @@
+.outer{
+    width: 1000px;
+    height: 800px;
+    border: 5px solid black;
+    position: relative;
+    background-image: url(carrom1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.inner1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color:rgb(67, 66, 66);
+    position: absolute;
+}
+.inner2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(67, 66, 66);
+    position: absolute;
+    left: 400px;
+}
+.inner3{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(67, 66, 66);
+    position: absolute;
+    left: 860px;
+}
+.inner4{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    left:360px;
+    top:350px;
+    animation: myanimation1 2s 1 2s forwards;
+}
+.inner5{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    left: 450px;
+    top:350px;
+    animation: myanimation2 2s 1 2s forwards;
+
+}
+.inner6{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    left: 405px;
+    top:425px;
+    animation: myanimation3 2s 1 2s forwards;
+
+}
+.inner7{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    left: 375px;
+    top:650px;
+    animation:myanimation 2s 1;
+    background-image: url(carrom.jpg);
+    background-size: 90% 110%;
+
+}
+@keyframes myanimation{
+ 0%{left:350;top: 650px;}
+ 100%{left:350;top:510px;}
+ 
+}
+@keyframes myanimation1{
+    0%{left:360px;
+        top:350px;}
+    100%{left:25px;top:25px;}
+}
+@keyframes myanimation2{
+    0%{left: 450px;
+        top:350px;}
+    100%{left:425px;top:25px;}
+
+}
+@keyframes myanimation3{
+   0%{ left:405px;
+    top:425px;}
+    100%{left:885px;top:25px;}
+}

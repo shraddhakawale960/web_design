@@ -1,0 +1,908 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url("restaurant-slider-03.jpg");
+    background-size: 100% 100%;
+    opacity: 0.9;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+}
+.img{
+    float: left;
+    margin-left: 100PX;
+    margin-right:400PX;
+    padding-top: 20PX;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 30PX;
+   color: white;
+    
+}
+header H1{
+    text-align: center;
+    margin-top: 100PX;
+    color: darkorange;
+    font-size:70PX;
+}
+header P{
+    text-align: center;
+    color: white;
+}
+button{
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-decoration: transparent;
+    color: white;
+    border:2px solid white;
+    background-color: black; 
+    margin-left: 5px;  
+}
+section{
+    width:100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:25px;
+    padding: 50px 0px 50px 0px;
+   
+
+}
+.Left{
+    width:300px;
+    height: 350px;
+    text-align: justify;
+    margin-right: 50px;
+    padding:30px
+
+}
+.center{
+    width: 250px;
+    height: 390px;
+    
+}
+.Right{
+    width: 250px;
+    height: 390px;
+  
+}
+.p{
+    font-size:25px;
+}
+.B{
+    padding: 7px 16px;
+    border-radius: 50px;
+    text-decoration: transparent;
+    color: black;
+    border:2px solid black;
+    background-color: white;
+}
+.pic{
+    width:100%;
+    height: 390px;
+}
+aside{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color:rgb(249, 247, 244);
+    flex-wrap: wrap !important;
+}
+.picture{
+    width:50%;
+    height: 600px;
+    background-image: url("hero-bg39.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ourservice{
+    width:50%;
+   height:100%
+}
+
+.ourservice h1{
+    padding-top: 100px;
+    padding-left: 70px; 
+}
+.p1{
+    padding-left: 70px; 
+}
+.icons{
+    width:100%;
+    height: 150px;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.icon1{
+    width: 40%;
+    height: 150px;
+   
+}
+.icon2{
+    width: 40%;
+    height: 150px;
+  
+}
+.icons1{
+    width:100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    width: 40%;
+    height: 150px;
+
+}
+.icon2{
+    width: 40%;
+    height: 150px;
+
+}
+
+.Horizontal{
+    width:100%;
+    height:100%;
+    text-align: center;
+   padding:20px 20px
+
+}
+.photo{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.photo1{
+    width: 25%;
+    height:410px ;
+    background-color: cadetblue;
+    background-image: url("agency-work-13.jpg");
+    background-size: 100% 100%;
+   
+}
+.photo2{
+    width: 25%;
+    height:410px ;
+    background-color:burlywood;
+
+}
+.top{
+    width: 100%;
+    height: 205px;
+    background-color: rgb(189, 117, 107);
+    background-image: url("agency-work-08.jpg");
+    background-size: 100% 100%;
+}
+.bottom{
+    width: 100%;
+    height: 205px;
+    background-color: rgb(107, 141, 189);
+    background-image: url("agency-work-02.jpg");
+    background-size: 100% 100%;
+}
+.photo3{
+    width: 25%;
+    height:410px ;
+    background-color:darkgoldenrod;
+    background-image: url("agency-work-14.jpg");
+    background-size: 100% 100%;
+}
+.photo4{
+    width: 25%;
+    height:410px ;
+    background-color:yellow;
+}
+.upper{
+    width: 100%;
+    height: 205px;
+    background-color: rgb(189, 117, 107);
+    background-image: url("agency-work-04.jpg");
+    background-size: 100% 100%;
+}
+.lower{
+    width: 100%;
+    height: 205px;
+    background-color: rgb(107, 141, 189);
+    background-image: url("agency-work-06.jpg");
+    background-size: 100% 100%;
+}
+.icon1 h3 label i{
+   font-size:25px;
+   padding: 5px;
+   
+}
+.icon2 h3 label i{
+    font-size:25px;
+    padding: 5px;
+    
+ }
+ .main{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .main1{
+  width: 20%;
+  height: 150px;
+  padding-top:21px;
+
+ }
+
+ .main1 hr{
+    height: 5px;
+    margin: 40px 120px 0px 120px;
+   background-color:darkorange;
+ }
+ .main2{
+    width: 20%;
+    height: 150px;
+    padding-top:21px;
+   }
+   .main2 hr{
+    height: 5px;
+    margin: 40px 120px 0px 120px;
+   background-color:darkorange;
+ }
+ .main3{
+  width: 20%;
+  height: 150px;
+  padding-top:21px;
+ }
+ .main3 hr{
+    height: 5px;
+    margin: 40px 120px 0px 120px;
+   background-color:darkorange;
+ }
+ .main4{
+    width: 20%;
+    height: 150px;
+    padding-top:21px;
+ }
+ .main4 hr{
+    height: 5px;
+    margin: 40px 120px 0px 120px;
+   background-color:darkorange;
+ }
+.creative{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(239, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.division{
+    width: 56%;
+    height: 120px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.division1{
+    width: 80%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.box1{
+    width: 30%;
+    height: 400px;
+    background-image: url("team-01.jpg");
+    background-size: 100% 100%;
+    
+}
+.box2{
+    width: 30%;
+    height: 400px;
+    background-image: url("team-02.jpg");
+    background-size: 100% 100%;
+}
+.box3{
+    width: 30%;
+    height: 400px;  
+    background-image: url("team-03.jpg");
+    background-size: 100% 100%;
+}
+.set{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.set1{
+    width: 30%;
+    height: 150px;
+  
+}
+.set1 i{
+   padding: 20px 5px 5px 5px;
+   font-size: large;
+}
+.set2{
+    width: 30%;
+    height: 150px;
+    
+}
+.set2 i{
+    padding: 20px 5px 5px 5px;
+    font-size: large;
+ }
+.set3{
+    width: 30%;
+    height: 150px;
+   
+}
+.set3 i{
+    padding: 20px 5px 5px 5px;
+    font-size: large;
+ }
+.type{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.type1{
+    width: 30%;
+   height: 370px;
+   text-align: center;
+   border: 2px solid rgb(211, 207, 207);
+}
+.type2{
+    width: 40%;
+   height: 370px;
+   padding: 30px;
+   
+}
+.group{
+    font-size:20px;
+    color: gray;
+}
+.group1{
+    color: gray;
+}
+button{
+    background-color: black;
+}
+.avtar{
+    padding-top: 20PX;
+   border-radius: 50%;
+}
+.rank{
+    width: 100%;
+    /* height: 100px; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rank1{
+    width: 30%;
+    /* height: 130px; */
+    padding: 40px;
+    color: white;
+}
+.rank2{
+    width: 30%;
+    /* height: 130px; */
+    padding: 50px;
+}
+.rank3{
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    padding: 10px 26px;
+    border: 2px solid darkgoldenrod;
+    
+}
+.rank4{
+    border: 2px solid darkgoldenrod ;
+    color:darkgoldenrod;
+    font-weight: bold;
+    padding: 9px 26px;
+}
+.order{
+    width: 100%;
+    height: 100px;
+   
+   text-align: center;
+   display:flex;
+   justify-content: center;
+   
+}
+.order1{
+    width: 70%;
+    height: 100px;
+    
+}
+.orderss{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    
+}
+.order2{
+    width: 32%;
+    height: 560px;
+}
+.order3{
+    width: 32%;
+    height: 560px;
+}
+.order4{
+    width: 32%;
+    height: 560px;
+}
+.b1{
+    border-radius: 0px;
+    background-color:rgb(244, 182, 24);
+    color: white;
+    padding: 10px 21px;
+    border: 2px solid rgb(244, 182, 24) ;
+}
+.gray{
+    margin-top: 16px;
+    font-size:10px;
+    color: gray;
+}
+.gray1{
+    color: gray;
+}
+.form{
+    width: 100%;
+    height:550px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   gap:70px;
+}
+.form-left{
+    width: 40%;
+    height: 450px;
+    background-color:rgb(245, 240, 240);
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.form-right{
+    width: 35%;
+    height: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.field{
+    width: 85%;
+    height: 40px;
+    border: 2px solid white;
+}
+.field1{
+    width: 85%;
+    height: 90px;
+    text-align:start;
+    margin-bottom:30px;
+    border: 2px solid white;
+    margin-top: 10px;
+
+}
+#send{
+    background-color: rgb(244, 182, 24);
+    border: 2px solid rgb(244, 182, 24);
+    font-weight: bold;
+    padding: 9px 26px;
+}
+#send1{
+    background-color: white;
+    color:rgb(244, 182, 24) ;
+    border: 2px solid rgb(244, 182, 24);
+    padding: 7px 20px;
+    font-weight: bold;
+}
+u{
+    color:rgb(244, 182, 24);
+}
+@media(400px<width<1300px){
+    
+section{
+    width:100%;
+    display:flex ;
+    justify-content: center ;
+    align-items: center ; 
+ margin-bottom: 50px;
+}
+.Left{
+    width:100%;
+    height: 350px;
+    margin-right: 50px;
+   text-align: center;
+   
+
+}
+.center{
+    width: 250px;
+    height: 390px;
+    background-color: yellow;
+}
+.Right{
+    width: 250px;
+    height: 390px;
+  background-color: orange;
+
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url("restaurant-slider-03.jpg");
+    background-size: 100% 100%;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+}
+.img{
+    float: left;
+    margin-left: 100PX;
+    margin-right:400PX;
+    padding-top: 20PX;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 30PX;
+    color: white;   
+    display: none; 
+}
+header h1{
+text-align: center;
+margin-top: 100PX;
+color: darkorange;
+font-size:70PX;
+}
+header P{
+text-align: center;
+color: white;
+}
+button{
+padding: 7px 16px;
+border-radius: 50px;
+text-decoration: transparent;
+color: white;
+border:2px solid white;
+background-color:black; 
+margin-left: 5px;  
+}
+.p{
+font-size:25px;
+}
+.B{
+padding: 7px 16px;
+border-radius: 50px;
+text-decoration: transparent;
+color: black;
+border:2px solid black;
+background-color: white;
+}
+.pic{
+width:100%;
+height: 390px;
+}
+
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(249, 247, 244);
+    flex-wrap: wrap;
+    
+}
+.picture{
+    width:100%;
+    height: 700px;
+    background-image: url("hero-bg39.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.ourservice{
+    width:100%;
+    height: 100%;
+   
+}
+
+.icons{
+    width:100%;
+    background-color: white;
+   display: flex;
+   height:100%;
+   flex-direction: column;
+}
+.icons .icon1{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+}
+.icons .icon2{
+    width: 100%;
+    height: 190px;
+    background-color:white;
+}
+
+.ourservice h1{
+    padding-top: 20px;
+    padding-left: 70px; 
+    }
+    .p1{
+    padding-left: 70px; 
+    }
+
+.icons h3{
+    padding-top:30px;
+    padding-left: 50px; 
+    }
+    .icons p{
+    padding-left: 70px; 
+    }
+
+.icons div:hover{
+  background-color: orange;
+}  
+
+
+.Horizontal{
+    width:100%;
+  
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+    
+}
+.photo1{
+    width: 100%;
+    height:410px;
+    background-color: cadetblue;
+    background-image: url("agency-work-13.jpg");
+    background-size: 100% 100%;
+   
+}
+.photo2{
+    width: 100%;
+    height:410px ;
+    background-color:burlywood;
+
+}
+.photo3{
+    width: 100%;
+    height:410px ;
+    background-color:darkgoldenrod;
+}
+.photo4{
+    width:100%;
+    height:410px ;
+    background-color:yellow;
+}
+.icon1 h3 label i{
+    font-size:25px;
+    padding: 5px;
+    
+ }
+ .icon2 h3 label i{
+     font-size:25px;
+     padding: 5px;
+     
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .main1{
+    width: 100%;
+ }
+ .main1 hr{
+    height: 5px;
+    margin: 20px 220px 0px 220px;
+   background-color:darkorange;
+ }
+ .main2{
+    width: 100%;
+ }
+ .main2 hr{
+    height: 5px;
+    margin: 20px 220px 0px 220px;
+   background-color:darkorange;
+ }
+ .main3{
+    width: 100%;
+ }
+ .main3 hr{
+    height: 5px;
+    margin: 20px 220px 0px 220px;
+   background-color:darkorange;
+ }
+ .main4{
+    width: 100%;
+ }
+ .main4 hr{
+    height: 5px;
+    margin: 20px 220px 0px 220px;
+   background-color:darkorange;
+ }
+ .creative{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+text-align: center;
+}
+.division{
+    width: 100%;
+    height: 100%;
+}
+.division1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+    
+}
+.box1{
+    width: 100%;
+    background-image: url("team-01.jpg");
+    background-size: 100% 100%;
+    
+}
+.box2{
+    width: 100%;
+    background-image: url("team-02.jpg");
+    background-size: 100% 100%;
+}
+.box3{
+    width: 100%;
+    background-image: url("team-03.jpg");
+    background-size: 100% 100%;
+}
+.set{
+    width: 100%; 
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+   
+}
+.set1{
+    width: 100%;
+    height:100% ;
+}
+.set2{
+    width: 100%;
+}
+.set3{
+    width: 100%;
+
+}
+.type{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.type1{
+    width: 100%;
+    text-align: center;
+   border: 2px solid rgb(211, 207, 207);
+}
+.type2{
+    width: 100%;  
+}
+.rank{
+    width: 100%;
+    height:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.rank1{
+    width: 100%;
+    color: white;
+}
+.rank2{
+    width: 100%;
+
+}
+.rank3{
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    padding: 10px 26px;
+    border: 2px solid darkgoldenrod
+    
+}
+.rank4{
+    border: 2px solid darkgoldenrod ;
+    color:darkgoldenrod;
+    font-weight: bold;
+    padding: 9px 26px;
+}
+.order{
+    height: 100%;
+    
+}
+.order1{
+    /* margin-bottom: 10px; */
+
+}
+.orderss{
+    width: 100%;
+   height: 100%;
+    display: flex;
+   flex-direction: column;
+    
+}
+.order2{
+    padding-top: 15px;
+    width: 100%;
+   
+}
+.order3{
+    width: 100%;
+   
+}
+.order4{
+    width: 100%;
+}
+.form{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-left{
+    width: 100%;
+    background-color:rgb(245, 240, 240);
+    padding-top: 60px;
+}
+.form-right{
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+}
+
+ 
